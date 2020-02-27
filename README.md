@@ -3,6 +3,8 @@
 This container runs the [Tamarin prover](https://tamarin-prover.github.io/) which is being used for security protocol verification.
 The tool is currently being developed at [ETH Zürich](https://ethz.ch/) in Switzerland.
 
+Many thanks to [eikendev](https://github.com/eikendev) for providing us with this Dockerfile and instructions!
+
 # Usage
 
 We mainly use [Podman](https://podman.io/) to run this image because it's very convenient to run as a normal user.
@@ -25,7 +27,3 @@ When mapping files from your file system, make sure to give those files appropri
 The `--security-opt` flag should only be necessary if your system runs SELinux.
 
 When the container is up, you can visit `http://localhost:3001` and start working on your proofs.
-
-
-
-Many thanks to Raphal Eikenberg (eikendev on github) for providing us with this Dockerfile and instructions!

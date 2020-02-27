@@ -1,3 +1,5 @@
+# Author: eikendev, https://eiken.dev/
+
 FROM ubuntu:latest AS base
 
 RUN set -xe \
