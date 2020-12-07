@@ -1,7 +1,7 @@
 # About
 
 This container runs the [Tamarin prover](https://tamarin-prover.github.io/) which is being used for security protocol verification.
-The tool is currently being developed at [ETH Zürich](https://ethz.ch/) in Switzerland.
+The tool was initially developed at [ETH Zürich](https://ethz.ch/) in Switzerland and is under continuing development on [Github](https://github.com/tamarin-prover/tamarin-prover/).
 
 Many thanks to [eikendev](https://github.com/eikendev) for providing us with this Dockerfile and instructions!
 
