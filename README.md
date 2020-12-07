@@ -18,7 +18,7 @@ podman run \
 	-v ./workspace:/workspace \
 	--security-opt label=disable \
 	--net=host \
-	eikendev/tamarin-prover
+	rsasse/tamarin-prover
 ```
 
 As you can see, a volume is being mapped into `/workspace`.
